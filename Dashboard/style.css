@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+#student-info, #llm-chat {
+    margin-bottom: 2rem;
+}
+
+#chat-box {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background: #fff;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+}
+
+#user-input {
+    width: calc(100% - 110px);
+    padding: 0.5rem;
+    margin-right: 10px;
+}
+
+#send-button {
+    padding: 0.5rem 1rem;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background: #45a049;
+}
