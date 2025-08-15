@@ -1,0 +1,61 @@
+# Core Libraries
+transformers
+datasets
+torch
+tensorflow  # Optional, choose either PyTorch or TensorFlow
+accelerate
+optimum  # Optional, for optimizing transformer-based models
+
+# Text Preprocessing
+nltk
+spacy
+regex
+
+# Data Handling
+pandas
+numpy
+scikit-learn
+
+# PDF and File Handling
+PyPDF2
+fitz  # PyMuPDF
+pdfplumber
+os
+shutil
+argparse
+
+# Evaluation and Metrics
+evaluate
+seqeval
+torchmetrics
+
+# Visualization
+matplotlib
+seaborn
+
+# Deployment and APIs
+Flask
+FastAPI
+gradio
+streamlit
+uvicorn
+gunicorn
+
+# Utilities
+tqdm
+logging
+huggingface_hub
+wandb  # Optional, for experiment tracking
+tensorboard  # Optional, for tracking
+
+# System Requirements
+Python >= 3.8
+CUDA Toolkit  # For GPU acceleration
+cuDNN  # For deep learning tasks on GPU
+pip
+git
+
+# Optional Tools
+docker  # For containerization
+jupyter  # For interactive coding
+notebooks
